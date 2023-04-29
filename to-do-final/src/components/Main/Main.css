@@ -1,0 +1,42 @@
+.Main {
+    height: 94%;
+}
+.mainPage {
+    background-image: linear-gradient(
+        to top left,
+        skyblue,
+        45%,
+        blue,
+        65%,
+        darkblue,
+        90%,
+        rgb(4, 4, 70)
+    );
+    height: 91%;
+}
+.toDoChildDoing {
+    margin-right: 5px;
+}
+.DoingChildDone {
+    position: relative;
+    left: 160px;
+}
+form > p:hover {
+    cursor: default;
+}
+form > label:hover {
+    cursor: default;
+}
+.category:hover {
+    cursor: pointer;
+}
+.buttonTodo {
+    width: 92.5%;
+    display: flex;
+    justify-content: center;
+}
+.buttonDoing {
+    width: 92.5%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+.mainTask {
+    height: 700px; /*fit-content*/
+    justify-content: space-around;
+    margin-top: 50px;
+    z-index: 1;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.greyBox {
+    width: 28%;
+    min-width: 400px;
+    height: 100%;
+    color: black;
+    border-radius: 5%;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.greyBox:hover {
+    /* box-shadow: 5px 5px 5px 5px rgb(0, 129, 201); */
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.task {
+    width: 100%;
+    height: 100%;
+}
+.content {
+    width: 90%;
+    background-color: white;
+    height: 100px;
+}
